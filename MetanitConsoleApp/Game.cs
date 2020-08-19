@@ -10,6 +10,9 @@ namespace MetanitConsoleApp
 
         public Game() { }
 
+        /// <summary>
+        /// Initializing a new game.
+        /// </summary>
         public void NewGame()
         {
             SecretNum = SetSecretNum();
