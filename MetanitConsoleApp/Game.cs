@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MetanitConsoleApp
 {
@@ -20,7 +16,6 @@ namespace MetanitConsoleApp
 
             while (true)
             {
-
                 UserKey = SetUserKey();
 
                 Logic(SecretNum, UserKey, out int cows, out int bulls);
