@@ -1,9 +1,10 @@
-﻿
-
-namespace MetanitConsoleApp
+﻿namespace MetanitConsoleApp
 {
     class GameLogic
     {
+        ///<summary>
+        /// General game algorithm.
+        ///</summary>
         protected void Logic(string secret, string key, out int cows, out int bulls)
         {
             int countCows = 0;
@@ -36,7 +37,7 @@ namespace MetanitConsoleApp
         }
 
         /// <summary>
-        /// Replaces a character with a new one at index.
+        /// Replaces a old character on a new from the specified index.
         /// </summary>
         private void Replace(ref string str, int index, char newCharacter)
         {
